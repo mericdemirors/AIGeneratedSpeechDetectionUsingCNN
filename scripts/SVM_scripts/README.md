@@ -1,0 +1,5 @@
+# About SVM Trainings and Tests
+
+Each SVM model needs a specific data loader, preprocessing(to fit the training portion of the dataset in to RAM). So it is hard to write a generic code as we did for the PyTorch models. It requires argumans, condition blocks and manual parameter sets, so SVM models' test and train scripts are divided into different scripts with each having the same backbone with some minor differences: Different data loading for multi models, scaling to fit it to RAM, model serial number prefix etc. It was easier for us to copy-paste-modify the existing code rather than adding a new pipeline for dimension reductions, feature extractions, multi forms and tweaking the hyper parameters for them.
+
+If you want to understant the code, comments are written in the [train_multi_SVM.py](train_multi_SVM.py) and [train_multi_fe_SVM.py](train_multi_fe_SVM.py) and [train_dr_multi_SVM.py](train_dr_multi_SVM.py). Test codes are just trainless pipeline of training codes.
