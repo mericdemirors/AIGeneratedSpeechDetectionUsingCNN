@@ -1,4 +1,4 @@
-# AI Generated Speech Detection Using CNN
+# [AI Generated Speech Detection Using CNN](https://ieeexplore.ieee.org/abstract/document/10825541)
 
 The recent rapid developments in generative-AI research has made it exceedingly hard to distinguish artificially generated audio-visual content from real ones. As a result, reliably detecting synthetic content has become an important problem to solve. In this study, multiple CNN, FC and SVM models are trained to detect synthetic audio signals obtained by using generative-AI models. The test results on realistic audio test sets show that the best accuracy scores for the CNN, FC and SVM models are 99.06, 99.15 and 98.68%, respectively. These results point out that the synthetic audio signals can be discriminated from the real ones by the trained models. Therefore, the proposed solution can be used in real-life practical applications to tackle this problem. Our analyses show that CNN models are the most suitable compared to other techniques, as FC and SVM models can also detect synthetic audios but have different inherent disadvantages.
 
