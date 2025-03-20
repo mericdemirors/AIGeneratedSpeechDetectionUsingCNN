@@ -25,7 +25,7 @@ Three CNN architectures were trained: ResNet50, GoogLeNet, and a custom basic_CN
 Two SVM models (Linear Support Vector Classification and C-Support Vector Classification) were trained on raw, PCA and UMAP-reduced data, as well as features extracted by ResNet50. A total of 72 trainings were performed, using a range of input data formats and dimensionalities, including 64 and 256 dimensions. Both SVM models were trained with configurations suitable for each type of input data.
 
 ## Dataset
-The 'In-the-Wild' Dataset was used for this research, which includes real and synthetic voice recordings of famous personalities. To ensure balanced class distribution for training, features were extracted from all 11,816 instances of both real and synthetic voices. The dataset was split into training, validation, and test sets with ratios of 0.8, 0.1, and 0.1, respectively.
+The ['In-the-Wild' Dataset](https://deepfake-total.com/in_the_wild) was used for this research, which includes real and synthetic voice recordings of famous personalities. To ensure balanced class distribution for training, features were extracted from all 11,816 instances of both real and synthetic voices. The dataset was split into training, validation, and test sets with ratios of 0.8, 0.1, and 0.1, respectively.
 
 ## Conclusion
 This research explores and compares various machine and deep learning approaches for detecting AI-generated audio, using CNNs, fully connected networks, and SVMs on image features derived from audio. The best model achieved an impressive accuracy of 99.15%. Among 134 training runs, most results achieved accuracy rates above 97%, with CNN models proving to be the most suitable overall for this detection task.
